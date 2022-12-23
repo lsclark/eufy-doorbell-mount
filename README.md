@@ -1,0 +1,44 @@
+# Eufy Doorbell Mount
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+A mount for the Eufy 2K Wireless (Battery Powered) Doorbell. Addresses several perceived issues with the standard mounts:
+
+1. The lack of security in the exposed removal hole
+2. Only 0° and 15° mounting options
+3. The lack of security in the provided backing having a smaller footprint than the doorbell itself, making it vulnerable to being levered off (say using a hammer or crowbar)
+
+## Features
+
+This repository contains a FreeCAD model for a mount that augments the provided mount to address the above problems:
+
+1. The removal tool hole is concealed by a screw, requiing an additional tool for its removal (to hopefully reduce opportunistic theft)
+2. The mounting angle can be varied from 5° through to 31° (via a FreeCAD variable)
+3. The sides of the mount are tapered (10° in the model, which is also configurable) to reduce the ability to pry the mount from the wall.
+
+## Notes
+
+### Printing
+
+The example shown below took approximately 11 hours to print on relatively coarse settings.
+
+### Installation
+
+A M3 threaded insert was used, together with a short nylon M3 machine screw.
+Due to the added length, new screws were required (at 30°). 50mm long 6g (3.5mm) screws worked fine with the provided plugs.
+
+### Limitations
+
+The CAD model assumes there is some angle, so some heavy tweaking is required if a 0° angle is needed. Similarly, one of the cutouts in the CAD model is not large enough for angles above about 40°, which should be an easy fix. Note that at that angles above around 35° it is likely that the screw head would interfere with the doorbell's ability to latch to its bracket.
+
+
+
