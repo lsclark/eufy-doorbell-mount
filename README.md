@@ -14,6 +14,7 @@ A mount for the Eufy 2K Wireless (Battery Powered) Doorbell. Addresses several p
 3. The lack of security in the provided backing having a smaller footprint than the doorbell itself, making it vulnerable to being levered off (say using a hammer or crowbar)
 
 ![Photographs of the mounted doorbell](images/mounted_photos.jpg)
+<b><p align="center" style="font-size: 0.8em;">The mount on the wall.</p></b>
 
 ## Features
 
@@ -26,6 +27,7 @@ This repository contains a FreeCAD model (`FCStd`) for a mount that augments the
 Pre-exported `STL`s are also provided for 15° and 30° (facing 'right'—mirror the model in your slicing tool for the other direction).
 
 ![The printed mount before mounting on the wall](images/print_photos.jpg)
+<b><p align="center" style="font-size: 0.8em;">The printed mount: (a) view from the front, (b) the view from the bottom, showing a nylon screw covering the removal tool hole, (c) the view of the back (wall side), and (d) the view from above.</p></b>
 
 ## Notes
 
