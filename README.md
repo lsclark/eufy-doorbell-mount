@@ -39,7 +39,7 @@ Due to the added length, new screws were required for wall mounting (at a 30° a
 
 ### Limitations
 
-The CAD model assumes there is some angle, so some heavy tweaking is required if a 0° angle is needed. Similarly, one of the cutouts in the CAD model is not large enough for angles above about 40°, which should be an easy fix. Note that at that angles above around 35° it is likely that the screw head would interfere with the doorbell's ability to latch to its bracket.
+The CAD model assumes there is some angle, so some heavy tweaking is required if an angle below about 5° is needed. Similarly, one of the cutouts in the CAD model is not large enough for angles above about 40°, which should be an easy fix. Note that at that angles above around 35° it is likely that the screw head would interfere with the doorbell's ability to latch to its bracket.
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
