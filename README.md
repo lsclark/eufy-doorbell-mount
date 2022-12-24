@@ -17,11 +17,13 @@ A mount for the Eufy 2K Wireless (Battery Powered) Doorbell. Addresses several p
 
 ## Features
 
-This repository contains a FreeCAD model for a mount that augments the provided mount to address the above problems:
+This repository contains a FreeCAD model (`FCStd`) for a mount that augments the provided mount to address the above problems:
 
 1. The removal tool hole is concealed by a screw, requiring an additional tool for its removal (to hopefully reduce opportunistic theft)
 2. The mounting angle can be varied from 5° through to 31° (via a FreeCAD variable)
 3. The sides of the mount are tapered (10° in the model, which is also configurable) to reduce the ability to pry the mount from the wall.
+
+Pre-exported `STL`s are also provided for 15° and 30° (facing 'right'—mirror the model in your slicing tool for the other direction).
 
 ![The printed mount before mounting on the wall](images/print_photos.jpg)
 
